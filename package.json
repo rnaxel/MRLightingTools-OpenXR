@@ -1,0 +1,31 @@
+{
+  "name": "com.microsoft.mixedreality.lightingtools",
+  "displayName": "Mixed Reality Lighting Tools",
+  "version": "1.0.0",
+  "unity": "2018.3",
+  "description": "Runtime lighting capture utilities, shaders, and samples for Mixed Reality projects using Unity and OpenXR.",
+  "keywords": [
+    "mixed",
+    "reality",
+    "lighting",
+    "openxr",
+    "mrtk"
+  ],
+  "category": "Mixed Reality",
+  "author": {
+    "name": "Microsoft Corporation",
+    "url": "https://github.com/microsoft/MRLightingTools-OpenXR"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/microsoft/MRLightingTools-OpenXR.git"
+  },
+  "license": "MIT",
+  "samples": [
+    {
+      "displayName": "Lighting Tools Examples",
+      "description": "Scenes and assets demonstrating the lighting capture workflow.",
+      "path": "Assets/MixedRealityToolkit.LightingTools/Examples"
+    }
+  ]
+}
