@@ -4,7 +4,7 @@
 
 Light Capture is a tool for estimating and replicating the current environment's light! As the user moves through their environment, their device will take pictures and build an internal representation of the lighting, which it then feeds into Unity's lighting system for use with your own preference of shaders.
 
-![Building up a Cubemap, live!](/Documentation/Images/LightEstimationHow.gif)
+![Building up a Cubemap, live!](/Documentation~/Images/LightEstimationHow.gif)
 
 Also included is a set of shaders that are streamlined for fast rendering of the lighting data. They're great if all you need is something that fits in with the lighting! They're also pretty simple and slim, so they're good to build on top of.
 
@@ -23,7 +23,9 @@ You can check out the `LightingTools_Capture` scene for an example of the bare m
 
 ## Installation and Configuration
 
-Grab a .unitypackage over in the [releases](https://github.com/Microsoft/MRLightingTools-Unity/releases) tab, or copy the `MixedRealityToolkit.LightingTools` folder into your project's Assets folder. Please use Unity 2018.3 or greater, and ensure your application has permission to access the WebCam!
+Use Unity's Package Manager to [add a package from a Git URL](https://docs.unity3d.com/Manual/upm-ui-giturl.html) and point it at `https://github.com/Microsoft/MRLightingTools-OpenXR.git`. Unity 2018.3 or greater is required, and the application must have permission to access the WebCam.
+
+If you prefer manual installation, grab a `.unitypackage` from the [releases](https://github.com/Microsoft/MRLightingTools-Unity/releases) tab.
 
 MR Lighting Tools does not require the [Mixed Reality Toolkit](https://github.com/Microsoft/MixedRealityToolkit-Unity), but does work well with it!
 
