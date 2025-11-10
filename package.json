@@ -25,7 +25,7 @@
     {
       "displayName": "Lighting Tools Examples",
       "description": "Scenes and assets demonstrating the lighting capture workflow.",
-      "path": "Assets/MixedRealityToolkit.LightingTools/Examples"
+      "path": "Samples~/LightingToolsExamples"
     }
   ]
 }
